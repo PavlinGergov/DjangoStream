@@ -63,3 +63,6 @@ target/
 
 #Static files
 bower_components
+
+#sqlite3 database
+*.sqlite3
