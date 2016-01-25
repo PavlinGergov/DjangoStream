@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Streaming</title>
+  <script type="text/javascript" src="../static/bower_components/oboe/dist/oboe-browser.js"></script>
+</head>
+
+<body>
+</body>
+<h2>Open the console with F12 and check how JS is handling the chunks of data</h2>
+<script>
+  oboe('http://localhost:8000/stream')
+    .node('!.*', function(obj){
+      console.log('Received object:', obj);
+    })
+</script>
+</html>

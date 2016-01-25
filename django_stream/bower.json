@@ -1,0 +1,22 @@
+{
+  "name": "django_stream",
+  "homepage": "https://github.com/PavlinGergov/DjangoStream",
+  "authors": [
+    "Pavlin Gergov <gergov.pavlin@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "streaming_app/static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "oboe": "~2.1.2"
+  }
+}
