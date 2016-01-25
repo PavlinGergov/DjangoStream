@@ -1,4 +1,4 @@
-# Simple Streaming example with Django and JavaScript
+# Simple Streaming with Django and JavaScript
 
 ## How to run
 
